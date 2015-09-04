@@ -1,13 +1,17 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 367a011f32cfa96408bccb040b57550d
-timeCreated: 1441222743
+guid: 141e9d320c8d5cb4893e9d421092b45b
+timeCreated: 1441222949
 licenseType: Pro
-=======
-guid: 08d76403619f82e4bafa98c4cab38376
-timeCreated: 1441295783
+guid: 92ece317a59ac9642aba9daace6a0254
+timeCreated: 1441232378
+licenseType: Pro
+guid: 655bf4d5aa2d3eb4d9b607bdc3938c77
+timeCreated: 1441222734
+licenseType: Pro
+
+guid: 22e8e7e28342613458d7b2791a478743
+timeCreated: 1441223012
 licenseType: Free
->>>>>>> master
 TextScriptImporter:
   userData: 
   assetBundleName: 

@@ -4,14 +4,14 @@ using UnityEngine.Networking;
 
 public class playerNetworkSetup : NetworkBehaviour
 {
-    [SyncVar]
-    private string playerUniqueIdentity;
+    [SyncVar]private string playerUniqueIdentity;
     private NetworkInstanceId playerNetID;
     private Transform myTransform;
 
     public override void OnStartLocalPlayer()
     {
         //base.OnStartLocalPlayer();
+
         GetNetIdentity();
         SetIdentity();
     }
@@ -46,7 +46,7 @@ public class playerNetworkSetup : NetworkBehaviour
 
     void SetIdentity()
     {
-        if (isLocalPlayer)
+        if (!isLocalPlayer)
         {
             myTransform.name = playerUniqueIdentity;
         }
@@ -58,7 +58,7 @@ public class playerNetworkSetup : NetworkBehaviour
 
     string MakeUniqueIdentity()
     {
-        string uniqueIdentity = "Player" + playerNetID.ToString();
+        string uniqueIdentity = "Player " + playerNetID.ToString();
         return uniqueIdentity;
     }
 

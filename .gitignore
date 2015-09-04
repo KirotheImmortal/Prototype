@@ -47,7 +47,7 @@ Temporary Items
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
-
+Thumbs.db.meta
 # Folder config file
 Desktop.ini
 
@@ -62,8 +62,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-Prototype/Prototype.sln
-Prototype/Prototype-csharp.sln
-Prototype/Prototype.sln
-Prototype/.vs/Prototype-csharp/v14/.suo
-Prototype/.vs/Prototype-csharp/v14/.suo
+ 
